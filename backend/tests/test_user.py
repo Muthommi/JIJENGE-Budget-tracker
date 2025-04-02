@@ -39,7 +39,7 @@ class TestUserModel(unittest.TestCase):
         email = "findme@example.com"
         password = "mypassword"
         User.register(email, password)
-         user = User.find_by_email(email)
+        user = User.find_by_email(email)
         self.assertIsNotNone(user)
         self.assertEqual(user["email"], email)
 

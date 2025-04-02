@@ -59,7 +59,6 @@ class TestTransactionRoutes(unittest.TestCase):
         finally:
             Transaction.create = original_create
 
-
     def test_get_transactions(self):
         mock_transactions = [
             {

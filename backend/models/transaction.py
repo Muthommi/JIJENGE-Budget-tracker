@@ -45,4 +45,4 @@ class Transaction:
         ]
         print(f"Pipeline: {pipeline}")
         summary = list(transactions_collection.aggregate(pipeline))
-        return summary            
+        return summary

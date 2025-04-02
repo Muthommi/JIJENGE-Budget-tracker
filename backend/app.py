@@ -15,6 +15,7 @@ app.register_blueprint(auth_routes, url_prefix='/api/auth')
 app.register_blueprint(transaction_routes, url_prefix='/api')
 app.register_blueprint(summary_routes, url_prefix='/api')
 
+
 @app.route('/')
 def home():
     return "Hello, Flask!"
