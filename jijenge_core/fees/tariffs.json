@@ -1,0 +1,38 @@
+[
+  {
+    "channel": "p2p",
+    "min": 1,
+    "max": 100,
+    "fee": 0.0
+  },
+  {
+    "channel": "p2p",
+    "min": 101,
+    "max": 500,
+    "fee": 12.0
+  },
+  {
+    "channel": "p2p",
+    "min": 501,
+    "max": 1000,
+    "fee": 15.0
+  },
+  {
+    "channel": "paybill",
+    "min": 1,
+    "max": 500,
+    "fee": 12.0
+  },
+  {
+    "channel": "paybill",
+    "min": 501,
+    "max": 1000,
+    "fee": 15.0
+  },
+  {
+    "channel": "till",
+    "min": 1,
+    "max": 70000,
+    "fee": 0.0
+  }
+]
